@@ -1,0 +1,215 @@
+﻿
+/*======================================
+    GENERAL STYLES
+======================================= */
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Lato', sans-serif;
+    font-size:15px;
+    background-color: #EAEAEA;
+}
+
+.pad-top {
+    padding-top:30px;
+}
+.pad-bottom {
+     padding-bottom:50px;
+}
+.font-big {
+    font-size:20px;
+}
+.outer-section {
+     border:1px solid #dedede;
+     background-color: #fff;
+	 margin-top:20px;
+	 
+}
+
+h3{font-family: 'Dongle', sans-serif;font-size: 4rem;}
+        .nav-link{color: #000;text-decoration: none;float: right;padding: 5px;}
+        li.nav-item.dropdown.open{ float: right;padding: 5px;}
+        a.dropdown-item{padding: 8px;}
+        .text-gradient { background-clip: text; -webkit-background-clip: text; position: relative;z-index: 1;}
+        .text-info {color: #141414e0 !important;}
+        .font-weight-bolder { font-weight: 700 !important;}
+        .bg-transparent { background-color: transparent !important;}
+        span{color: cadetblue;}
+        .material-icons{font-size: 14px;
+            display:inline-block;
+  vertical-align:top;}
+  .demo-text{
+  clear: left;
+  text-align: right;
+  vertical-align: middle;
+  line-height:20px;
+}
+a{
+    text-decoration: none;
+}
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.15rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+.material-icons{
+    font-size: 20px;
+    color:rgb(77, 74, 74) !important
+}
+a {
+ 
+  transition: background-color .5s;
+}
+
+li > div > a:hover {
+  background-color:#ccc;
+  text-decoration: none;
+ 
+}
+.card{
+    float: left;
+    width: 16%;
+  min-width: 100px;
+  margin: 20 auto;
+  margin-left: 22vh;
+  padding: 5px;
+   background-color: #FFC300;
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+  display: grid;
+  color: #fff;
+  font-weight: 900;   
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  border-radius: 8px;
+}
+
+.card>h4{
+font-size: 20px;
+color: #fff;
+}
+.footer{
+    text-align: center;
+    margin: auto;
+    width: 177vh;
+    background-color:rgb(234 234 234);
+    
+}
+
+.primary{
+    background-color: #82E0AA ;
+}
+
+
+.cuarto{
+    background-color: rgb(4 174 247);
+}
+
+.tercero{
+    background-color: #FF5733;
+}
+.tamaño{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    color: #fff;
+    
+    
+}
+
+ .tarjeta > a:hover {
+    
+    padding-left: 5px;
+    text-decoration: none;
+    background-color: #82E0AA;
+    color: white;
+    font-weight: bold;
+    
+  }
+
+  .tarjeta > a:visited {
+  
+text-decoration: none;
+
+
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+
+			
+	
+			
+			#header {
+				margin:auto;
+				width:auto;
+				font-family:Arial, Helvetica, sans-serif;
+                height: 24px;
+                padding-bottom: 15px;
+			}
+			
+			ul, ol {
+				list-style:none;
+                float: right;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#fff;
+				color:#000;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#68aa84 ;
+                color: #fff;
+			}
+			
+			.nav li ul {
+				display:none;
+				min-width:200px;
+                position:absolute;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+            .container .outer-section{
+
+            height: 200px !important;
+            margin-bottom: 100px !important;
+            }
